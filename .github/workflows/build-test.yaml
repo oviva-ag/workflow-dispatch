@@ -2,7 +2,7 @@ name: Build & Test
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -48,5 +48,5 @@ jobs:
     #     workflow: Deploy To Kubernetes           
     #     repo: benc-uk/dapr-store
     #     token: ${{ secrets.PERSONAL_TOKEN }}
-    #     ref: master 
+    #     ref: main 
    
